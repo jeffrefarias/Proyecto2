@@ -1,0 +1,74 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin: auto;
+    background-color: #E8E8E8  ;
+}
+
+.header{
+     /* border: 1px solid red;  */
+    height: 5em;
+    padding: 5em;
+    font-size: 1em;
+     background-image: url("/assets/img/fondo2.avif");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    
+}
+
+
+.header h1 {
+    margin: 0px;
+    font-weight: 700;
+    color: white;
+}
+
+.products {
+    width: 80%;
+    margin: auto;
+    padding: 2em;
+}
+
+
+img {
+            float: left;
+            margin: 1em 2em 0 3.7em;
+            height: 10em;
+             width: 10em;
+             /* border: 1px solid red; */
+             border-radius: 15px;
+             
+}
+
+
+.details {
+            display: table-cell;
+            vertical-align: middle;  
+            padding-top: 3em;
+           
+}
+p {
+            margin: 0 5em 0 1em;
+            /* border: 1px solid red; */
+}
+        
+
+
+   .footer{
+    /* border: 1px solid red; */
+    height: 3em;
+    line-height: 3em;
+    background-color: #ff00de;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    opacity: 0.6;
+   }
+
+
+   
